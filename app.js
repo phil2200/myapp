@@ -29,7 +29,7 @@ function checkLogin() {
     var enteredName = document.getElementById('enteredName');
     var enteredPass = document.getElementById('enteredPass');
 
-    // Check if stored data from registration form is equal to entered data from login form
+    // Check if stored data from registratfffffion form is equal to entered data from login form
     if(enteredName.value == storedName && enteredPass.value == storedPass) {
         alert('You are logged in.');
     }else {
