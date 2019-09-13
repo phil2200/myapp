@@ -6,10 +6,12 @@ var password = document.getElementById('password');
 function storeLogin() {
     localStorage.setItem('username', username.value);
     localStorage.setItem('password', password.value);
-    alert('New user has been created.');
+    alert('New user has been createdcffffffd.');
 }
 
+{
 
+}
 // Function to list
 function showUser() {
     console.log('Show user stored in localStorage.')
